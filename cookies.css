@@ -1,0 +1,99 @@
+body{
+    background-color: #eae7dc;
+    color:#e85a4f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    font-weight: bold;
+    padding: 1.64em;
+    font-size: 120%;
+    float: left;
+    width: 160px; 
+    background-image: linear-gradient(to top, #737373, tan);
+    height: 85vh;
+}
+nav a {
+    text-decoration: none;
+    transition: background-color 2s linear;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+nav a:link {
+    color:#e85a4f;
+}
+nav a:visited {
+    color:#af0505;
+}
+nav a:hover {
+    color: #af0505;
+    background-color: #eae7dc;
+}
+main {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer {
+    clear:both;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    padding: 2em;
+    margin-left: 190px;
+}
+#D1 {
+    height: 320px;
+    width: 100%;
+    background-image: url(images/line.jpg);
+    background-repeat: repeat-x;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#D3 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.company {
+    color: #737373;
+}
+table {
+    border: .5em dashed #af0505;
+}
+td {
+    padding: 0.2em;
+    text-align: center;
+    border: 0.2em solid #737373;
+}
+th {
+    padding: 0.2em;
+    border: 0.2em solid #af0505;
+}
+tr {
+    background-color: beige;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+
